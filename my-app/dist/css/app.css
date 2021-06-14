@@ -12,6 +12,7 @@ body {
 .container {
   width: 70%;
   margin: auto;
+  padding: 3rem 0;
 }
 
 .btn {
@@ -96,4 +97,53 @@ nav .right_menu .btn_padd img {
   width: 100%;
   position: absolute;
   left: -25px;
+}
+
+#section1 {
+  background-color: #FFE7D2;
+}
+#section1 .container .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#section1 .container .box h2 {
+  font-size: 2rem;
+  width: 50%;
+  text-align: center;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+#section1 .container .box .images {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#section1 .container .box .images .image {
+  width: 33%;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+}
+#section1 .container .box .images .image img {
+  height: 200px;
+  margin-bottom: 2rem;
+}
+#section1 .container .box .images .image span {
+  font-size: 1.2rem;
+  text-align: center;
+}
+#section1 .container .box .down_img {
+  display: flex;
+  height: 500px;
+}
+#section1 .container .box .down_img img {
+  height: 400px;
+}
+#section1 .container .box .divisor {
+  width: 100%;
+  border-bottom: 1px solid grey;
+  margin-bottom: 5rem;
 }

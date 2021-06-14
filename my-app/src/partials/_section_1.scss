@@ -1,0 +1,54 @@
+#section1{
+    background-color: $secondary_bg;
+    .container{
+        .box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2{
+                font-size: 2rem;
+                width: 50%;
+                text-align: center;
+                line-height: 3rem;
+                margin-bottom: 2rem;
+            }
+
+            .images{
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                .image{
+                    width: 33%;
+                    margin-bottom: 3rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding:1.5rem;
+                    img{
+                        height: 200px;
+                        
+                        margin-bottom: 2rem;
+                    }
+                    span{
+                        font-size: 1.2rem;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .down_img{
+                display: flex;
+                height: 500px;
+                img{
+                   height:  400px
+                }
+            }
+            .divisor{
+                width: 100%;
+                border-bottom: 1px solid grey;
+                margin-bottom: 5rem;
+            }
+        }
+    }
+}
