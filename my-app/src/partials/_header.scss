@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid black;
+    .right_menu{
+        a{
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        .btn_padd{
+            color:$btn_bg;
+            background-color: $btn_text;
+            border: 1px solid $btn_bg;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            font-size: 1rem;
+            img{
+            height: 15px;
+            text-align: center;
+        }
+    }
+    }
+}
